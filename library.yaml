@@ -10,6 +10,9 @@ default_dirs:
     - global: ~/.claude/commands/
 
 library:
-  skills: []
+  skills:
+    - name: usage-ledger
+      description: When/where/how-often any MCP, skill, or file/folder was last used or changed — from Claude Code transcripts (not git), zero LLM tokens. Discover/audit/histogram + human-vs-agent.
+      source: /Users/hamishmcgregor/_HQ/.claude/skills/usage-ledger/SKILL.md
   agents: []
   prompts: []
